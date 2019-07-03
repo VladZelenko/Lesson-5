@@ -1,0 +1,66 @@
+.intro {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(48, 44, 82, 0.8),
+      rgba(80, 63, 118, 0.7)
+    ),
+    url("/assets/img/intro.png");
+  background-size: cover;
+
+  .hero {
+    max-width: 771px;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: rem(32);
+    font-family: $primaryFont;
+    letter-spacing: 0.32px;
+    width: 100%;
+
+    &::after {
+      display: block;
+      content: "";
+      margin: 21px auto 30px;
+      width: 50px;
+      height: 1px;
+      background-color: $special-color;
+    }
+  }
+
+  .hero-preview {
+    font-size: rem(14);
+    font-weight: $liteFontWeight;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .hero-more__btn {
+    width: 120px;
+    margin: 50px auto;
+    outline: none;
+    background: none;
+    border: 1px solid $special-color;
+    border-radius: 2px;
+    color: $special-color;
+    font-family: "Hammersmith One";
+    font-size: rem(16);
+    font-weight: $mainFontWeight;
+    line-height: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      background-color: $special-color;
+      color: $default-color;
+      transition: ease-out 0.5s;
+    }
+  }
+}
