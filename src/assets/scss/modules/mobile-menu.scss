@@ -86,8 +86,10 @@
       }
     }
     ul {
-      display: table-cell;
-      vertical-align: middle;
+      height: 100vh;
+      display: flexs;
+      flex-direction: column;
+      justify-content: center;
     }
     li {
       padding: 8px 0;
@@ -105,20 +107,18 @@
     }
     a {
       color: $special-color;
-      display: inline-block;
+      display: block;
+      width: 120px;
+      margin: auto;
       font-size: 18px;
-      &.suBtn {
-        color: $default-color;
-      }
+    }
+    .active {
+      color: $default-color;
+      background-color: $special-color;
+      border-radius: 5px;
+      padding: 10px 20px;
     }
   }
-  /* sign up button */
-  .active {
-    background-color: $special-color;
-    border-radius: 5px;
-    padding: 10px 20px;
-  }
-
   .hero {
     padding: 0 20px;
   }
