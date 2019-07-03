@@ -53,6 +53,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "vue": "^2.6.10"
   }
 }

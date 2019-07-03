@@ -1,0 +1,18 @@
+.watch-stories {
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(9, 5, 47, 0.8),
+      rgba(49, 29, 94, 0.7)
+    ),
+    url("/assets/img/story.png");
+  background-size: cover;
+  align-items: center;
+
+  .watch-stories__title {
+    font-size: rem(16);
+    font-family: $secondaryFont;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+}

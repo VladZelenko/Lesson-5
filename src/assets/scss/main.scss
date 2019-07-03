@@ -20,6 +20,42 @@ html {
   }
 }
 
+@media screen and (max-width: $smDesktopWidth) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+.primary-title {
+  text-align: left;
+  font-size: rem(22);
+  font-weight: $boldFontWeight;
+  font-family: $primaryFont;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.more__btn {
+  width: 120px;
+  margin: 50px auto;
+  outline: none;
+  background: none;
+  border: 1px solid $special-color;
+  border-radius: 2px;
+  color: $special-color;
+  font-family: "Hammersmith One";
+  font-size: rem(16);
+  font-weight: $mainFontWeight;
+  line-height: 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $special-color;
+    color: $default-color;
+    transition: ease-out 0.5s;
+  }
+}
+
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -30,6 +66,7 @@ html {
   flex-flow: row nowrap;
   justify-content: space-between;
 }
+
 .container {
   width: 100%;
   flex: 0 0 auto;

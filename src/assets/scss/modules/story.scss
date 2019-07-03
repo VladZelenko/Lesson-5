@@ -1,0 +1,29 @@
+.story {
+  width: 100%;
+  padding: 70px 0;
+  color: $secondary-color;
+
+  .story-box {
+    max-width: 538px;
+    text-align: left;
+  }
+
+  .large-logo {
+    width: 235px;
+    height: 229px;
+  }
+
+  .story-review {
+    font-size: rem(14);
+    font-weight: $liteFontWeight;
+    letter-spacing: 0.42px;
+    padding-bottom: 31px;
+  }
+  .primary-title {
+    margin-bottom: 28px;
+  }
+
+  .more__btn {
+    margin: 0;
+  }
+}

@@ -42,26 +42,4 @@
     line-height: 24px;
     width: 100%;
   }
-
-  .hero-more__btn {
-    width: 120px;
-    margin: 50px auto;
-    outline: none;
-    background: none;
-    border: 1px solid $special-color;
-    border-radius: 2px;
-    color: $special-color;
-    font-family: "Hammersmith One";
-    font-size: rem(16);
-    font-weight: $mainFontWeight;
-    line-height: 35px;
-    text-transform: uppercase;
-    cursor: pointer;
-    &:hover,
-    &:focus {
-      background-color: $special-color;
-      color: $default-color;
-      transition: ease-out 0.5s;
-    }
-  }
 }
