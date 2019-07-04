@@ -1,0 +1,54 @@
+.expertise {
+  padding: 71px 0 68px;
+  min-height: 754px;
+}
+.expertise-title {
+  margin-bottom: 16px;
+  color: $secondary-color;
+  font-size: rem(22);
+  font-weight: $boldFontWeight;
+  font-family: $primaryFont;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.expertise-preview,
+.team .preview {
+  color: $neutral-primary;
+  font-size: rem(14);
+  font-family: $primaryFont;
+  letter-spacing: 1.05px;
+  opacity: 0.75;
+  &::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    margin: 18px auto 0;
+    background-color: $secondary-color;
+    opacity: 0.3;
+  }
+}
+
+.expertise-list__item {
+  margin-top: rem(48);
+  flex-basis: 288px;
+
+  img {
+    height: 50px;
+  }
+
+  .title {
+    margin: 35px 0 25px;
+    color: $secondary-color;
+    font-size: rem(14);
+    font-family: $secondaryFont;
+    letter-spacing: 0.7px;
+  }
+  .preview {
+    max-width: 280px;
+    color: $neutral-secondary;
+    font-size: rem(14);
+    font-family: $primaryFont;
+  }
+}

@@ -1,0 +1,50 @@
+.team {
+  padding: 71px 0 69px;
+  background: linear-gradient(
+      90deg,
+      rgba(48, 44, 82, 0.8) 100%,
+      rgba(80, 63, 118, 0.7) 0%
+    ),
+    url("/assets/img/team-bg.png");
+  background-size: cover;
+
+  .title {
+    margin-bottom: 8px;
+    font-size: rem(22);
+    font-family: $primaryFont;
+    font-weight: $boldFontWeight;
+  }
+
+  p {
+    padding-top: 70px;
+    font-weight: $liteFontWeight;
+  }
+
+  .preview {
+    padding: 0;
+    color: $neutral-regular;
+    &::after {
+      background-color: $default-color;
+    }
+  }
+}
+
+.team-list__item {
+  margin-top: 47px;
+  padding-bottom: 25px;
+  border: 1px solid rgba($color: #fafafa, $alpha: 0.5);
+  box-sizing: border-box;
+
+  .title-name {
+    margin-top: 23px;
+    font-size: rem(14);
+    letter-spacing: 0.7px;
+    font-family: $secondaryFont;
+  }
+
+  span {
+    font-family: $mainFont;
+    font-size: rem(13);
+    font-weight: $liteFontWeight;
+  }
+}
