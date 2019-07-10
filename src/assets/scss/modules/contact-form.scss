@@ -1,0 +1,26 @@
+.contact-form {
+  padding: 71px;
+  color: $secondary-color;
+  .title {
+    text-align: left;
+    font-size: rem(22);
+    font-weight: $boldFontWeight;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+  .form {
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  input,
+  textarea {
+    padding: 18px 21px;
+    margin-bottom: 23px;
+    border: 1px solid #e5e5e5;
+    color: #c5c3c8;
+  }
+  .more__btn {
+    width: 120px;
+    margin: 0;
+  }
+}
