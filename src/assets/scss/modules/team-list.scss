@@ -1,0 +1,33 @@
+.team-list {
+  padding: 69px 0;
+  min-height: 500px;
+  background: url(/assets/img/overlay.png),
+    url(/assets/img/PUT_YOUR_IMAGE_HERE.png);
+  background-size: cover;
+
+  .wrapper {
+    width: 770px;
+  }
+
+  i {
+    font-size: 82px;
+  }
+  p {
+    font-size: rem(16);
+    line-height: rem(26);
+    font-weight: $mainFontWeight;
+    font-family: $primaryFont;
+    letter-spacing: 0.4px;
+  }
+  .title {
+    margin-top: 52px;
+    font-size: rem(14);
+    font-weight: $secondaryFont;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  span {
+    opacity: 0.7;
+    font-size: rem(13);
+  }
+}

@@ -1,0 +1,48 @@
+.portfolio {
+  padding: 70px 0;
+  .header {
+    justify-content: space-around;
+  }
+  .title {
+    color: $secondary-color;
+    font-size: rem(22);
+    font-family: $primaryFont;
+    font-weight: $boldFontWeight;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+  }
+  .link-portfolio {
+    color: $secondary-color;
+    font: rem(14);
+    letter-spacing: 0.7px;
+  }
+  .portfolio-box {
+    padding-top: 71px;
+    justify-content: none;
+  }
+  .portfolio-item {
+    flex-basis: 305px;
+    width: 267px;
+    height: 200px;
+    background-color: #b6b6b6;
+  }
+  .portfolio-item:nth-child(2),
+  .portfolio-item:nth-child(4),
+  .portfolio-item:nth-child(8),
+  .portfolio-item:nth-child(9),
+  .portfolio-item:nth-child(11),
+  .portfolio-item:nth-child(6) {
+    background-color: #acacac;
+  }
+  .portfolio-item:nth-child(3),
+  .portfolio-item:nth-child(5),
+  .portfolio-item:nth-child(10),
+  .portfolio-item:nth-child(12),
+  .portfolio-item:nth-child(7) {
+    background-color: #a1a1a1;
+  }
+
+  .more__btn {
+    margin-top: 70px;
+  }
+}
